@@ -1,0 +1,8 @@
+Customer_ID,Date_Day,Prod_Cat,Region, Sales ,Margin
+763005,1/12/2015,Electronics,Midwest, 38.84 , 0.2489 
+851762,7/2/2015,Books,East, 10.96 , 0.2627 
+897451,9/28/2015,Electronics,South, 22.80 , 0.2708 
+925784,2/17/2015,Electronics,East, 26.47 , 0.4255 
+978461,6/4/2015,Books,South, 31.11 , 0.1577 
+165883,10/11/2015,Music,East, 40.79 , 0.1270 
+481247,5/28/2015,Music,Midwest, 44.37 , 0.4619 
