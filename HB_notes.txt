@@ -1,0 +1,51 @@
+Suppose that Brian is releasing his debut rap album and wants to design a strategic marketing campaign to not only optimize spins and royalties, but also stay exclusive on one streaming service.  As a rapper/data scientist, he's interested in making predictions about the music streaming marketplace.  He gathered survey data from his target audience, in which respondents selected their preferred app from a choice set of product profiles.
+
+
+HB model
+when you look at the likelihood function, and decide on the right priors, it may be appropriate to use priors that themselves depend on other parameters not mentioned in the likelihood 
+
+
+
+use HB with constraints upon the signs of attribute coefficients other than brand
+specify signs when order of preference within attributes is obvious +/-
+estimate individual-level conjoint measures
+HB estimated individual-level part-worths
+HB model - train/test split, sensitivity/true positive rate baseline 25%
+training set sensitivity 93.7, test 52.6
+requires coding of profile cells
+
+contingency table of top-ranked brands and most valued attribues
+place consumers into groups based on revealed preferences
+mosaic plot
+most favored attribues are determined relative to the entire study group- we compute the value of an attribute to an individual as a standard score versus the entire study group
+conventional attribute importance calculations are dependent upon relative ranges of sets of attribue levels utilized in surveys.
+
+
+consumer preference and market response
+figures
+heterogeneity in consumer preferences
+
+subsets of users for whom the selected brand is the top ranked
+
+parallel coordinate plots explore the potential for brand switching
+individual part-worth profiles
+
+market simulation, constructed from individual level conjoint measures, as we obtain from Bayesian methods
+most importnat contribution of choice models is predicting consumer behavior in the marketplace
+work for spotify, know what price to charge
+for instance, objective command 25% share in the market
+
+
+describe the competitive products in terms of attribues, creating simulated choice sets for input to the market simulation
+fix 3 competitors and vary only spotify's price in the simulation's choice set input
+
+take market simulations further by considering the actions and reactions of competitive firms in teh marketplace - ex. 2 player competitive game, i.e. both have the option of lowering price by 5 dollars
+run simulations for each of the 4 outcomes, using unit costs to make entries int eh game outcome or payoff table
+
+limiataions - hypothetical products, prices and competitors
+error bands can be provided around all conjoint measures, drawing on posterior distributions obtained from an HB estimation procedure
+simulation guies management by predicting what users might do w/ new product or price change
+
+choice based conjoint studies iwth product profiles defined in terms of brand and price
+brand equity, measuring what a brand is worth relative to other brands, in fact, with HB-estimated part-worths, brand equity can be assessed for each individual in a conjoint study
+alternative data generation, website or app where user is presented with choice, any data that involves choices and prices

@@ -1,0 +1,14 @@
+hierarchical Bayesian methods
+
+- the term _consumer heterogeneity_ refers to individual differences across users
+- describing users in terms of their positions along underlying attribue parameters is more informative than describing them as being members of segments
+- Bayesian methods in marketing, Rossi, Allenby, and McColloch (2005): R packages Rossi (2014), Sermas (2014)
+
+# questions
+- preference scaling: traditional unidimensional scaling: mean proportions from the columns of a paired-comparisons preference matrix may be converted to scale scores using standard normal quantiles
+
+Miller's Marketing Data Science
+p117, applied probability models for understanding buyer behavior
+p144, market basket analysis - association rule modeling
+
+pg 160 HB methods
